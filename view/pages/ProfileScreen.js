@@ -10,7 +10,7 @@ export default class ProfileScreen extends React.Component {
   render () {
     return (
       <View style={styles.container}>
-        <Text style={styles.bigblue}>I'm keisei, I come back again.</Text>
+        <Text style={styles.bigblue}>{'I\'m keisei, I come back again.'}</Text>
         <View style={styles.scaleContainer}>
           <View style={styles.scaleOneTime}></View>
           <View style={styles.scaleTwoTimes}></View>

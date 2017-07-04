@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ScrollView, Image, Text, View } from 'react-native'
+import { ScrollView, Image } from 'react-native'
 import Dimensions from 'Dimensions'
 
 export default class IScrolledDownAndWhatHappenedNextShockedMe extends Component {

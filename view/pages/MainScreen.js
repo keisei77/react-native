@@ -1,11 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { View, Button } from 'react-native'
+import PropTypes from 'prop-types'
 
 export default class MainScreen extends React.Component {
   static navigationOptions = {
     title: 'Welcome'
   }
-
+  static propTypes = {
+    navigation: PropTypes.string.isRequired
+  }
   render () {
     const { navigate } = this.props.navigation
     return (
