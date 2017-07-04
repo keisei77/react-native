@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { StyleSheet, Text, TextInput, View } from 'react-native'
 
 export default class PizzaTranslator extends Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
     this.state = { text: '' }
   }
@@ -35,13 +35,13 @@ export default class PizzaTranslator extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 10,
+    padding: 10
   },
   inputStyle: {
-    height: 40,
+    height: 40
   },
   translator: {
     padding: 10,
-    fontSize: 42,
-  },
+    fontSize: 42
+  }
 })

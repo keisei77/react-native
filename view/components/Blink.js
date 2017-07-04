@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Text, View } from 'react-native'
 
 export default class Blink extends Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
     this.state = { showText: true }
 

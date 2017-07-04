@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { FlatList, StyleSheet, Text, View } from 'react-native'
 
 export default class FlatListBasics extends Component {
-  constructor() {
+  constructor () {
     super()
     this.state = {
       data: [
@@ -28,7 +28,7 @@ export default class FlatListBasics extends Component {
     )
   }
 
-  render() {
+  render () {
     return (
       <View style={styles.container}>
         <FlatList

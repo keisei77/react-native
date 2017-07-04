@@ -7,7 +7,7 @@ import IScrolledDownAndWhatHappenedNextShockedMe from '../components/IScrolledDo
 import FlatListBasics from '../components/FlatListBasics'
 
 export default class ProfileScreen extends React.Component {
-  render() {
+  render () {
     return (
       <View style={styles.container}>
         <Text style={styles.bigblue}>I'm keisei, I come back again.</Text>
@@ -19,26 +19,26 @@ export default class ProfileScreen extends React.Component {
         <PizzaTranslator />
         <FlatListBasics />
       </View>
-    );
+    )
   }
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#fff'
     // alignItems: 'center',
     // justifyContent: 'center',
   },
   bigblue: {
     color: 'blue',
     fontWeight: 'bold',
-    fontSize: 20,
+    fontSize: 20
   },
   scaleContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'flex-end',
+    justifyContent: 'flex-end'
   },
   scaleOneTime: {
     // flex: 1,
@@ -57,5 +57,5 @@ const styles = StyleSheet.create({
     width: 150,
     height: 150,
     backgroundColor: 'steelblue'
-  },
-});
+  }
+})

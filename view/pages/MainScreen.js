@@ -6,7 +6,7 @@ export default class MainScreen extends React.Component {
     title: 'Welcome'
   }
 
-  render() {
+  render () {
     const { navigate } = this.props.navigation
     return (
       <View>
