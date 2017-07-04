@@ -1,9 +1,9 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
-import Blink from '../components/Blink'
+// import Blink from '../components/Blink'
 import PizzaTranslator from '../components/PizzaTranslator'
-import IScrolledDownAndWhatHappenedNextShockedMe from '../components/IScrolledDownAndWhatHappenedNextShockedMe'
+// import IScrolledDownAndWhatHappenedNextShockedMe from '../components/IScrolledDownAndWhatHappenedNextShockedMe'
 import FlatListBasics from '../components/FlatListBasics'
 
 export default class ProfileScreen extends React.Component {
